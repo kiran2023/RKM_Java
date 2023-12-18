@@ -6,7 +6,7 @@ public class JdbcConnect {
 	
 	private static final String URL = "jdbc:mysql://127.0.0.1:3306/supermarket_data";
 	private static final String NAME = "root";
-	private static final String PASSWORD = "Kiran2023!";
+	private static final String PASSWORD = "";
 	private static Connection connection;
 
 	public static Connection getConnection() {
